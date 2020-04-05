@@ -8,7 +8,7 @@ layout: none
 	"name" : "Arjun Thakur | Programmer, Web Developer, UI/UX Designer",
 	"scope" : "/",
 	"display" : "standalone",
-	"start_url" : "https://arjunthakur08.github.io/",
+	"start_url" : "{{ site.url }}",
 	"short_name" : "Arjun Thakur",
 	"theme_color" : "transparent",
 	"description" : "Portfolio of Arjun Thakur - a Programmer, Web Developer and UI/UX Designer from India, love to design UI/UX stuff, contributing to open source, capturing the moments, playing on Codepen",
@@ -113,6 +113,6 @@ layout: none
             "type": "image/png"
         }
 	],
-	"url" : "https://arjunthakur08.github.io",
+	"url" : "{{ site.url }}",
 	"screenshots" : []
 }

@@ -4,9 +4,9 @@ email: arjunthakur01081997@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Portfolio of Arjun Thakur - A programmer, web developer and a UI/UX designer from Himachal Pradesh, India. Passionate about Creating Graphics & Animations. Networking Enthusiast. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://arjunthakur08.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: arjunthakur08
-github_username: arjun0108
+github_username: arjunthakur08
 
 permalink: slug
 
