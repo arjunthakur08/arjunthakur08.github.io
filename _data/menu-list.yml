@@ -1,0 +1,14 @@
+list_title: Navigation or Menu
+menu:
+
+- title: Home
+  url: /
+  
+- title: Work
+  url: /work/
+  
+#- title: Resume
+#  url: javascript:alert('To be inserted!');
+  
+- title: Contact
+  url: /contact/

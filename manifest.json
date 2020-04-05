@@ -1,0 +1,118 @@
+---
+layout: none
+---
+
+{
+	"dir" : "ltr",
+	"lang" : "English",
+	"name" : "Arjun Thakur | Programmer, Web Developer, UI/UX Designer",
+	"scope" : "/",
+	"display" : "standalone",
+	"start_url" : "https://arjunthakur08.github.io/",
+	"short_name" : "Arjun Thakur",
+	"theme_color" : "transparent",
+	"description" : "Portfolio of Arjun Thakur - a Programmer, Web Developer and UI/UX Designer from India, love to design UI/UX stuff, contributing to open source, capturing the moments, playing on Codepen",
+	"orientation" : "natural",
+	"background_color" : "transparent",
+	"related_applications" : [],
+	"prefer_related_applications" : false,
+	"icons" : [
+        {
+            "src": "/assets/css/img/diff-img/293ea505-5bb3-a11b-02eb-f6d6ad9e9b85.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/89d0b75c-64a0-abfe-692a-03413c6db4ee.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/windows10/SplashScreen.scale-200.png.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/55e3eb4d-a157-6cff-13e7-2d1b4b0c3804.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/681f1046-9724-dc16-02d4-63bf00ca5109.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/38428f29-437f-3968-15c1-389782127e09.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/b284a749-067e-292d-4f63-af3246274d60.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/8f74bedd-6181-859d-b67b-c3c299f2b579.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/windows10/Wide310x150Logo.scale-200.png.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/9132b4f3-2570-586f-335b-cac4534ab5b7.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/f047dd49-f042-05df-4735-1eadf03bc862.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/d2622f83-f8f4-91cd-b518-fab2b1362184.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/0c10ef69-91e6-5630-1406-3b4fb6361682.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/bd6ace62-2116-f9a7-d313-0a06bdcd8b89.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/1285a1dc-4abd-b071-de0f-4641207a31de.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/cfefc679-3d36-e42d-4316-8581f10a7925.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/7cd12a99-7b71-25b8-2ce8-bae91382cb39.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/eb400752-528d-fe41-c5c9-8df9505e71d4.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/6aec6b3e-6179-2157-11d2-7f3de4ac3660.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+	],
+	"url" : "https://arjunthakur08.github.io",
+	"screenshots" : []
+}

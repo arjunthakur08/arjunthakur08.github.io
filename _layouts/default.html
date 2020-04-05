@@ -1,0 +1,142 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<meta charset="utf-8">
+	<meta name="viewport" content='width=device-width, initial-scale=1' />
+	{% capture description %}
+		{% if page.description %}
+			{{ page.description | strip_html }}
+		{% else %}
+			{{ site.description }}
+		{% endif %}
+	{% endcapture %}
+	<meta name="author" content="Arjun Thakur" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+	<meta property="og:site_name" content="Arjun Thakur| Programmer, Web Developer, UI/UX Designer" />
+    <meta property="og:description" content="{{ description | strip }}">
+	<meta name="description" content="{{description | strip}}">
+    <meta property="og:image" content="">
+	<link rel="canonical" href="{{ page.url | absolute_url }}"/>
+
+    <meta name="x-build-time" content="{{ site.time | date_to_rfc822 }}">
+  	<meta name="theme-color" content="transparent"/>
+	<title>{% if page.title %}{{ page.title }}  | {{ site.name }} {% else %} {{ site.title }} {% endif %}</title>
+
+	<link rel="icon" href="{{ 'fav.ico' | relative_url }}" sizes="32x32">
+	
+<!--	<link href="https://fonts.googleapis.com/css?family=Alata|Exo&display=swap" rel="stylesheet">-->
+	<style>
+		@font-face{font-family:Alata;font-style:normal;font-weight:400;font-display:swap;src:local('Alata Regular'),local('Alata-Regular'),url(https://fonts.gstatic.com/s/alata/v1/PbytFmztEwbIoceyzqYzQ1OW7l8.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:Alata;font-style:normal;font-weight:400;font-display:swap;src:local('Alata Regular'),local('Alata-Regular'),url(https://fonts.gstatic.com/s/alata/v1/PbytFmztEwbIocezzqYzQ1OW7l8.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Alata;font-style:normal;font-weight:400;font-display:swap;src:local('Alata Regular'),local('Alata-Regular'),url(https://fonts.gstatic.com/s/alata/v1/PbytFmztEwbIoce9zqYzQ1OW.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Exo;font-style:normal;font-weight:400;font-display:swap;src:local('Exo Regular'),local('Exo-Regular'),url(https://fonts.gstatic.com/s/exo/v9/4UaOrEtFpBISfH6j2jDu55XI.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:Exo;font-style:normal;font-weight:400;font-display:swap;src:local('Exo Regular'),local('Exo-Regular'),url(https://fonts.gstatic.com/s/exo/v9/4UaOrEtFpBISfX6j2jDu55XI.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Exo;font-style:normal;font-weight:400;font-display:swap;src:local('Exo Regular'),local('Exo-Regular'),url(https://fonts.gstatic.com/s/exo/v9/4UaOrEtFpBISc36j2jDu5w.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+	</style>
+	
+	<link rel="stylesheet" href="{{ 'assets/css/main.css' | absolute_url }}" media="all">
+	<link rel="apple-touch-icon" href="{{ 'assets/css/img/diff-img/9132b4f3-2570-586f-335b-cac4534ab5b7.webPlatform.png' | absolute_url }}">
+	<link rel='manifest' href="{{ 'manifest.json' | absolute_url }}">
+
+	{% if page.custom_css %}
+    {% for stylesheet in page.custom_css %}
+        {% assign path = 'assets/css/' | append: stylesheet | absolute_url%}
+        <link rel="stylesheet" href="{{ path }}" media="screen" type="text/css">
+    {% endfor %}
+    {% endif %}
+	
+	<meta name="keywords" content="arjunthakur08, Arjun Thakur, Arjun-Thakur, arjun0108, arjunthakur__, arjunthakur_, arjun_thakur, arjunthakur01, arjun thakur, taskilon, web developer, web designer, programmer, himachal pradesh, Inida, ui/ux developer, ui/ux designer, ui/ux engineer, ui/ux expert, C, Rust, Python, JavaScript" />
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112481565-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-112481565-1');
+    </script>
+
+
+	<!-- PWA -->
+	<script>
+		if ("serviceWorker" in navigator) {
+		  if (navigator.serviceWorker.controller) {
+			console.log("An active service worker found, no need to register");
+		  } else {
+			// Register the service worker
+			navigator.serviceWorker
+			  .register("{{ site.baseurl }}/serviceworker.js", {
+				scope: "./"
+			  })
+			  .then(function (reg) {
+				console.log("Service worker has been registered for scope: " + reg.scope);
+			  });
+		  }
+		}
+	</script>
+	
+	
+	<script type="application/ld+json">
+	{
+	  "@type": "WebSite",
+	  "url": "{{ page.url | absolute_url }}",
+	  "headline": "{{ site.title }}",
+	  "name": "{{ site.name }}",
+	  "description": "{{ description | strip }}",
+	  "@context": "https://schema.org"
+	}
+	</script>
+
+
+</head>
+
+<body>
+	<!-- HEADER -->
+	<div class="header">
+		<div class="nav topnav">
+			<span class="logo no-select">
+				<a href="{% link index.html %}"><img src="{{ 'assets/css/img/logo.jpg' | absolute_url }}" alt="logo"></a>
+				
+				<span class="nav-trigger">
+					<a style="border: 0;" class="trig nav-close"></a>
+				</span>
+			</span>
+			
+			<ul class="nav-ul">
+			{% for menu in site.data.menu-list.menu %}
+				{% if page.url == menu.url %}
+				<li>
+					<a id="{{ menu.title | slugify }}" class="menu active" href="{{ menu.url }}">{{ menu.title }}</a>
+				</li>
+				{% else %}
+				<li>
+					<a id="{{ menu.title | slugify }}" class="menu" href="{{ menu.url }}">{{ menu.title }}</a>
+				</li>
+				{% endif %}
+				{% endfor %}
+				
+				<li style="text-align: center;">
+					<a href="https://github.com/arjunthakur08/" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+	
+	<span class="nav-wrapper" style="display: none;"></span>
+	
+		{{content}}
+	
+	<!-- FOOTER -->
+	<div class="footer">
+		<p class="copyright">Copyright &copy; <a href="{% link index.html %}">ARJUN THAKUR</a> | All rights reserved.</p>
+	</div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="{{ 'assets/js/main.js' | absolute_url }}"></script>
+</body>
+</html>
