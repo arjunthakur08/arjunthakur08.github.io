@@ -28,6 +28,11 @@ layout: none
             "type": "image/png"
         },
         {
+            "src": "/assets/css/img/diff-img/windows10/SplashScreen.scale-200.png.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
             "src": "/assets/css/img/diff-img/55e3eb4d-a157-6cff-13e7-2d1b4b0c3804.webPlatform.png",
             "sizes": "300x300",
             "type": "image/png"
@@ -50,6 +55,11 @@ layout: none
         {
             "src": "/assets/css/img/diff-img/8f74bedd-6181-859d-b67b-c3c299f2b579.webPlatform.png",
             "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/css/img/diff-img/windows10/Wide310x150Logo.scale-200.png.png",
+            "sizes": "620x300",
             "type": "image/png"
         },
         {
