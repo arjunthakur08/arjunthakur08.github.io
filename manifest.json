@@ -5,15 +5,15 @@ layout: none
 {
 	"dir" : "ltr",
 	"lang" : "English",
-	"name" : "Arjun Thakur | Programmer, Web Developer, UI/UX Designer",
+	"name" : "{{ site.name }}",
 	"scope" : "/",
 	"display" : "standalone",
 	"start_url" : "{{ site.url }}",
 	"short_name" : "Arjun Thakur",
-	"theme_color" : "transparent",
+	"theme_color" : "#ffffff",
 	"description" : "Portfolio of Arjun Thakur - a Programmer, Web Developer and UI/UX Designer from India, love to design UI/UX stuff, contributing to open source, capturing the moments, playing on Codepen",
 	"orientation" : "natural",
-	"background_color" : "transparent",
+	"background_color" : "#ffffff",
 	"related_applications" : [],
 	"prefer_related_applications" : false,
 	"icons" : [
@@ -25,11 +25,6 @@ layout: none
         {
             "src": "/assets/css/img/diff-img/89d0b75c-64a0-abfe-692a-03413c6db4ee.webPlatform.png",
             "sizes": "48x48",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/css/img/diff-img/windows10/SplashScreen.scale-200.png.png",
-            "sizes": "1240x600",
             "type": "image/png"
         },
         {
@@ -55,11 +50,6 @@ layout: none
         {
             "src": "/assets/css/img/diff-img/8f74bedd-6181-859d-b67b-c3c299f2b579.webPlatform.png",
             "sizes": "50x50",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/css/img/diff-img/windows10/Wide310x150Logo.scale-200.png.png",
-            "sizes": "620x300",
             "type": "image/png"
         },
         {
