@@ -38,6 +38,7 @@ a{
 	transition: all .2s ease;
 	border-bottom: 1px solid;
     border-color: inherit;
+	outline: 0;
 }
 p{
 	line-height: 1.75em;
@@ -199,6 +200,7 @@ li{
 /* nav-trigger */
 .nav .nav-trigger a.trig{
 	position: relative;
+	border-radius: 360px;
 }
 a.trig:after, a.trig:before {
     content: '';
@@ -219,7 +221,6 @@ a.trig:after {
     left: 16px;
 }
 a.trig.nav-open{
-	border-radius: 360px;
 	background-color: #f8f8f8;
 }
 a.trig.nav-open:before {
