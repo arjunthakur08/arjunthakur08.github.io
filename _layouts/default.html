@@ -101,8 +101,8 @@ layout: compress
 			<span class="logo no-select">
 				<a href="{% link index.html %}"><img src="{{ 'assets/css/img/logo.jpg' | absolute_url }}" alt="logo"></a>
 				
-				<span class="nav-trigger">
-					<a style="border: 0;" class="trig nav-close"></a>
+				<span class="trigger-wrapper">
+					<a class="trigger nav-close"></a>
 				</span>
 			</span>
 			
@@ -127,7 +127,7 @@ layout: compress
 		</div>
 	</div>
 	
-	<span class="nav-wrapper" style="display: none;"></span>
+	<span class="nav-overlay" style="display: none;"></span>
 	
 		{{content}}
 	
