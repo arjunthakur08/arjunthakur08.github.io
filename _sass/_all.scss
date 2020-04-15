@@ -8,6 +8,7 @@ html, body{
 	font-family: 'Exo',sans-serif;
 	line-height: 1.3;
 	color: #222;
+	word-spacing: 2px;
 }
 *::-moz-selection{
 	background-color: orangered;
@@ -28,6 +29,12 @@ a, .no-select{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+b{
+	font-weight: bold;
+}
+i{
+	font-style: italic;
 }
 a{
 	text-decoration: none;
@@ -63,7 +70,7 @@ li{
 	text-align: center; 
 	padding: .8em 0; 
 	font-size: 1.8em; 
-	color: #333; 
+	color: #252525; 
 	font-weight: bold; 
 	text-transform: uppercase;
 }
@@ -379,19 +386,16 @@ li{
 /* Buttons with Special Effects */
 .ar-btn{
 	text-align: center;
-	background: #4a4a4a;
     border: 0;
     border-radius: 5px;
-    color: #fff;
     padding: .5em .8em;
-    font-size: .9em;
     outline: 0;
 	display: inline-block;
 	margin: .5em;
 }
 .ar-btn{
 	background: none; 
-	color: #333; 
+	color: #252525; 
 	font-family: 'ALATA', sans-serif;
 	font-size: 0.9em !important; 
 }
@@ -511,7 +515,7 @@ li{
 	.nav li{ display: inline-block; }
 	.nav li a{ padding: 6px 10px; }
 	.paragraph{
-		font-size: 1.5em;
+		font-size: 1.4em;
 	}
 	.box-wrapper{
 		display: -webkit-box;
