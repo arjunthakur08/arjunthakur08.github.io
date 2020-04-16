@@ -321,7 +321,7 @@ li{
 
 /* heading-bars around */
 .heading-bars{
-	color: #eaeaea;
+	color: #757575;
 	position: relative;
 	text-transform: uppercase;
 	overflow: hidden;
@@ -361,13 +361,13 @@ li{
     border-top: 2px solid rgba(221, 221, 221, 0.37);
 }
 .footer .copyright{
-	color: #a5a5a5;
+	color: #666;
 	font-size: .8em;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 .footer .copyright a{
-	font-family: 'ALATA', sans-serif;
-	color: #a9a9a9;
+	color: #666;
 }
 
 /*===== INDEX =====*/
