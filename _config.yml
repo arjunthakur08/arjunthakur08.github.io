@@ -19,6 +19,7 @@ exclude:
    - readme.md
    - license
    - CNAME
+   - vendor
    
 plugins:
   - jekyll-sitemap
