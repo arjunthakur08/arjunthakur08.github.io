@@ -1,0 +1,26 @@
+list_title: Worklist
+work:
+
+- title: The Trippy Frog
+  alt: The Trippy Frog - Website
+  img: assets/css/img/work/theTrippyFrog.png
+  url: https://thetrippyfrog.com
+  text: Visit Site
+
+- title: Meet Auto - A Chrome Extension
+  alt: Meet Auto - A Chrome Extension
+  img: assets/css/img/work/meetAuto.png
+  url: https://chrome.google.com/webstore/detail/meet-auto/fkmnifpnniehjljgadbcopppfcidkakd
+  text: Chrome Web Store
+
+- title: Discussion App using localStorage
+  alt: Discussion App using localStorage
+  img: assets/css/img/work/localStorage.png
+  url: https://codepen.io/arjunthakur08/full/ZEBpvoa
+  text: Open in Codepen
+
+- title: Mouse Events
+  alt: Mouse Events - Example
+  img: assets/css/img/work/mouseEvents.png
+  url: https://codepen.io/arjunthakur08/full/eYpGKdN
+  text: Open in Codepen
