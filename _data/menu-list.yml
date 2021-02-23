@@ -7,8 +7,11 @@ menu:
 - title: Work
   url: /work/
   
-#- title: Resume
-#  url: javascript:alert('To be inserted!');
+# - title: blog
+#   url: /blog/
   
 - title: Contact
   url: /contact/
+  
+- title: RÉSUMÉ
+  url: /assets/docs/Resume-Arjun_Thakur.pdf
